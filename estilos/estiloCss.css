@@ -174,33 +174,26 @@ footer .instagram {
 
 /*contacto*/
 
+.formulario{
+    display: flex;
+}
+
 form{
     width: 25%;
 
-    float: right ;
+    margin-left: 10%;
     margin-right: 20%;
     margin-top: 4%;
     color: white;
-    
+
 }
 
 iframe{
-    padding-left: 10%;
-    padding-top: 5%;
+   margin-top: 5%;
 
 }
 
-label{
-    text-align: left;
-    display: block;
-}
-input{
-    margin-bottom: 5px;
-    padding: 4px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border: 1px solid solid ;
-}
+
 
 
 input :focus, textarea:focus{
@@ -213,6 +206,11 @@ input :focus, textarea:focus{
 
 
 @media only screen and (max-width: 600px){
+
+    .formulario{
+        flex-direction: column;
+    }
+
     form{
         margin-right: 250px;
     }
@@ -223,6 +221,10 @@ input :focus, textarea:focus{
 
 
 @media only screen and (max-width: 480px){
+    .formulario{
+        flex-direction: column;
+    }
+
     .maps{
         margin: 25px;
         padding: 0px;
