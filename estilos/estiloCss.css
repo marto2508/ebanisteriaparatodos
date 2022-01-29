@@ -79,7 +79,14 @@ p{
     
 }
 
-
+.slide{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.slide img{ 
+    height: 300px;
+    width: 500px;
+}
 
 .imagenHome {
 
