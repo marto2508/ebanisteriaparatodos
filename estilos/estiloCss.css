@@ -34,6 +34,15 @@ header{
     color: white;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.items{
+    transition: background-color 2s;
+}
+
+.items:hover{
+    background: rgb(122, 228, 122);
 }
 
 main{
