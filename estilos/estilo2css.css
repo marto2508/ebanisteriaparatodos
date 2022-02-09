@@ -1,16 +1,31 @@
+.bio, .lema {
+  text-align: center;
+  font-size: 20px;
+  font-family: initial;
+  color: #fcf9f9; }
+
 h1 {
   width: 25%;
-  font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-family: initial;
   margin: auto;
   margin-bottom: 50px;
   text-align: center;
   margin-top: 30px;
-  color: #faf3f3;
-  background-color: #064106; }
+  color: white;
+  background-color: #270303; }
 
-p {
-  text-align: center;
+.tituloPrincipal {
+  width: 25%;
   font-size: 20px;
-  font-family: initial;
-  color: white; }
+  font-family: verdana;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  background-color: #053605; }
+
+.lema {
+  font-size: 50px;
+  font-family: fantasy; }

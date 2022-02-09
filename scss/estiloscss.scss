@@ -2,7 +2,9 @@
 @import "variables.scss";
 
 
-h1{
+@mixin tituloH1($colorTitulo , $colorFondoTitulo , $letraTitulo) {
+    
+
     width: 25%;
     font-size: $sizeTitulo;
     font-family:$letraTitulo ;
@@ -15,10 +17,32 @@ h1{
 }
 
 
-p{
+.bio{
     text-align: $posicionParrafo;
     font-size: $sizeParrafo;
     font-family: $letraParrafo;
     color: $colorParrafo;
     
+    
+}
+
+
+h1{
+    @include tituloH1(white,rgb(39, 3, 3),initial )
+
+}
+
+.tituloPrincipal{
+    @include tituloH1(white,rgb(5, 54, 5) , verdana )
+}
+
+
+.lema{
+    @extend .bio;
+    font-size: 50px;
+    font-family:fantasy;
+    
+
+    
+
 }
